@@ -12,7 +12,7 @@
     </header>
     <section>
       <form action="" method="get">
-        <!-- <fieldset>
+        <fieldset>
           <legend>Dados Pessoais</legend>
 
           <label for="userName">Nome</label>
@@ -44,7 +44,7 @@
           <label for="userImage">Arquivo</label>
           <input type="file" name="userImage" />
           <br />
-        </fieldset> -->
+        </fieldset>
 
         <fieldset>
           <legend>Perfil</legend>
@@ -58,6 +58,17 @@
           <input type="radio" name="userGender" value="notInformed" />
           <label for="userGender">Prefiro não informar</label>
         </fieldset>
+
+        <br />
+
+        <label for="maritalStatus">Estado Civíl</label>
+        <select name="maritalStatus">
+          <option value="notInformed">Selecione...</option>
+          <option value="casado">Casado</option>
+          <option value="solteiro">Solteiro</option>
+          <option value="divorciado">Divorciado</option>
+          <option value="viúvo">Viúvo</option>
+        </select>
         <button>Enviar</button>
       </form>
     </section>
