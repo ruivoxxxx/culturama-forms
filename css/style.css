@@ -1,3 +1,13 @@
 textarea {
   resize: none;
 }
+header img {
+  /* width: 132px;
+  height: 105px; */
+}
+header h1 {
+  font-family: "Fjalla One", sans-serif;
+}
+body {
+  font-family: "Work Sans", sans-serif;
+}
