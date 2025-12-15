@@ -6,6 +6,7 @@
 h1 {
   font-family: "Fjalla One", sans-serif;
 }
+
 body {
   font-family: "Work Sans", sans-serif;
   width: 100%;
@@ -13,6 +14,7 @@ body {
   margin: 0 auto;
   background-color: #f9f9f9;
 }
+
 form {
   border-radius: 15px;
   padding: 15px;
@@ -25,22 +27,26 @@ fieldset {
   padding-top: 2px;
   border-color: grey;
 }
+
 legend {
   font-size: 18px;
   font-weight: 500;
   padding: 10px;
 }
-p {
-  display: inline-block;
-}
+
 label {
   font-size: 17px;
 }
+
 input {
   margin-bottom: 12px;
   width: 280px;
   height: 21px;
   border-radius: 5px;
+}
+
+p {
+  display: inline-block;
 }
 
 select {
@@ -49,12 +55,14 @@ select {
   height: 18px;
   border-radius: 50px;
 }
+
 textarea {
   resize: none;
   width: 60%;
   margin-top: 10px;
   border-radius: 5px;
 }
+
 button {
   padding: 5px;
   margin-right: 5px;
